@@ -1,0 +1,8 @@
+TwO-O-Player Math Game
+
+Class nouns
+
+	- Game (each turn of the game is a new instance of the class Game with the other player's turn)
+	- Question (Could randomize the two numbers and the operation, then perform that operation and return the answer)
+	- Player (init score, name...)
+	
