@@ -1,7 +1,7 @@
 class Question
   attr_reader :num1, :num2, :operator, :solution, :expression
 
-  OPERATORS = ["+", "-"]
+  OPERATORS = ["+", "-"] # add * and / later
 
   def initialize
     @num1 = rand(20)

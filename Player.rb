@@ -1,12 +1,12 @@
 class Player
-  attr_accessor :name
-  attr_reader :score, :lives_remaining
+  attr_accessor :name, :lives_remaining
 
   LIVES = 3
 
   def initialize(name)
     @name = name
     @lives_remaining = LIVES
+    @score = 0
   end
 
   def name_prompt

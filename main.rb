@@ -11,7 +11,8 @@ puts p1.name_prompt
 puts p2.name_prompt
 
 puts "Let's begin."
-puts "#{p1.name} vs #{p2.name}\n\n"
+puts "#{p1.name} vs #{p2.name}\n"
+puts "--------------\n\n"
 
-q1 = Question.new
-puts q1.expression
+game = Game.new(p1, p2)
+game.start
